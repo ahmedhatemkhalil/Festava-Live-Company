@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ticket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- home section -->
+    <header class="" id="ticket-page">
+      <nav
+        class="navbar position-fixed top-0 end-0 start-0 scrolled bg-black navbar-expand-lg navbar-dark"
+      >
+        <div class="container">
+          <a class="navbar-brand font order-0 mt-lg-2 pt-lg-0" href="index.html"
+            >Festava Live</a
+          >
+          <button
+            class="navbar-toggler order-last"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse mt-2"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav navbar-list ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link home" aria-current="page" href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#about ">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#artists">Artists</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=" ./index.html#schedule-section"
+                  >Schedule</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <a class="nav-link btn ticket rounded-5 nav-item" href="./ticket.html"
+            >Buy Ticket</a
+          >
+        </div>
+      </nav>
+
+      <!-- home section end -->
+
+      <!-- ticket form -->
+
+      <div class="container d-flex justify-content-center align-items-center">
+        <form class="bg-white rounded-4 ticket-form">
+          <h2 class="text-center mt-4">Get started here</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <label for="fName" class="form-label"></label>
+              <input
+                id="fName"
+                required
+                class="form-control"
+                placeholder="Full Name"
+              />
+            </div>
+            <div class="col-lg-6">
+              <label for="email" class="form-label"></label>
+              <input
+                id="email"
+                class="form-control"
+                placeholder="Email address"
+                required
+              />
+            </div>
+            <div class="col-lg-12">
+              <label for="phone" class="form-label"></label>
+              <input
+                id="phone"
+                class="form-control"
+                placeholder="phone number"
+                required
+              />
+            </div>
+            <h6 class="mt-4">Choose Ticket Type</h6>
+
+            <div class="col-lg-6">
+              <div class="form-control form-check">
+                <input
+                  required
+                  type="radio"
+                  id="regular"
+                  class=""
+                  name="ticket"
+                />
+                <label class="form-check-label" for="regular"
+                  >Early bird $120</label
+                >
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-control form-check">
+                <input
+                  required
+                  id="standard"
+                  type="radio"
+                  class=""
+                  name="ticket"
+                />
+                <label for="standard" class="form-check-label"
+                  >Standard $240</label
+                >
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <label for="noOfTickets" class="form-label"></label>
+              <input
+                id="noOfTickets"
+                type="number"
+                class="form-control"
+                placeholder="number of tickets"
+                required
+              />
+            </div>
+
+            <div class="col-12">
+              <label for="message" class="form-label"></label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                placeholder="Additional requests"
+              ></textarea>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-10 col-8 w-100 d-flex justify-content-center align-items-center"
+            >
+              <button
+                type="submit"
+                class="mt-5 btn buy-btn text-white rounded-5 px-3"
+              >
+                Buy Ticket
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <!-- ticket form end -->
+
+    <!-- footer section -->
+    <footer>
+      <div class="footer-site">
+        <div class="container">
+          <div class="row">
+            <div class="footer-top d-lg-flex p-3 align-items-center">
+              <div class="col-lg-6 col-md-12">
+                <h2 href="./index.html">Festava Live</h2>
+              </div>
+              <div class="col-lg-6">
+                <ul class="list-unstyled">
+                  <div class="icons text-white d-flex justify-content-lg-end">
+                    <li>
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-apple"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-youtube"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-pinterest"></i>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-head bg-black p-lg-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <h5 class="text-warning">Links</h5>
+                <ul class="list-unstyled footer-items d-flex mt-3">
+                  <li class="">
+                    <a href="./index.html#home">Home</a>
+                  </li>
+                  <li class="">
+                    <a href="./index.html#about">About</a>
+                  </li>
+                  <li>
+                    <a href="./index.html#artists">Artists</a>
+                  </li>
+                  <li>
+                    <a href="./index.html#schedule-section">Schedule</a>
+                  </li>
+                  <li>
+                    <a href="./index.html#pricing">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="./index.html#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 location">
+                <h5 class="text-warning mb-3">Have a question?</h5>
+                <p>
+                  <a href="tel:090-080-0760">090-080-0760 </a>
+                </p>
+                <p>
+                  <a
+                    href="mailto:hello@company.com
+                "
+                    >hello@company.com
+                  </a>
+                </p>
+              </div>
+              <div class="col-lg-3">
+                <h5 class="text-warning mb-3">Location</h5>
+                <p class="text-white">
+                  Silang Junction South,<br />
+                  Tagaytay, Cavite, Philippines
+                </p>
+                <div class="footer-map">
+                  <a
+                    target="_blank"
+                    href="https://maps.app.goo.gl/khXFnzfKx8z8jNR98"
+                    >Our Map</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="text-secondary mt-5" />
+          <div class="copyRight text-white d-flex mt-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 copyRight">
+                  <p>Copyright © 2024 Festava Live Company</p>
+                </div>
+                <div class="col-lg-12 terms">
+                  <ul class="list-unstyled d-flex termsList">
+                    <li>
+                      <a href="">Terms & Conditions</a>
+                    </li>
+                    <li>
+                      <a href=""> Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href=""> Your Feedback</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer section end -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

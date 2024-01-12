@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--------------------------------- Home section ------------------------------>
+    <nav class="bg-black navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <a class="navbar-brand font order-0 mt-lg-2 pt-lg-0" href="index.html"
+          >Festava Live</a
+        >
+
+        <button
+          class="navbar-toggler order-last"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-lg-5 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link home" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#artists">Artists</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule-section">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <a
+          class="ticket nav-link btn rounded-5 nav-item ms-auto me-4"
+          href="./ticket.html"
+          >Buy Ticket</a
+        >
+      </div>
+    </nav>
+
+    <section class=" d-flex align-items-end flex-wrap" id="home-section">
+      <div class="desc w-100 container text-center">
+        <small>FESTAVA LIVE PRESENTS</small>
+
+        <h1 class="mb-3">Night Live 2024</h1>
+        <a href="#" class="btn btn2 rounded-5 px-3">Let's begin</a>
+      </div>
+      <div class="content container d-flex justify-content-around w-100">
+        <span>
+          <i class="fa-regular fa-clock logo me-1"></i>
+
+          10 - 12 <sup>th</sup>, jan 2024
+        </span>
+
+        <span class="fest-location">
+          <i class="fa-solid fa-location-dot logo me-1"> </i>
+
+          National Center,United states
+        </span>
+        <span>
+          <small class="me-3">Share:</small>
+          <a href="">
+            <i class="me-3 fa-brands fa-facebook text-white"></i>
+          </a>
+          <a href="">
+            <i class="text-white me-3 fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="">
+            <i class="text-white fa-brands fa-instagram"></i>
+          </a>
+        </span>
+      </div>
+
+      <div id="video-wrapper">
+        <video muted loop autoplay id="back-video">
+          <source src="./video/pexels-2022395.mp4" type="video/mp4" />
+
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <!------------------------------------ home section end ------------------------------------------------------->
+
+    <!--------------------------------------- about section -------------------------------->
+    <section id="about" class="d-flex section-padding mt-0">
+      <div class="container">
+        <div class="row">
+          <div class="about-content col-12 col-lg-6 mb-4 mb-lg-0">
+            <h2 class="mb-4">About Festava 2024</h2>
+            <p class="mb-3">
+              Festava Live is free CSS template provided by TemplateMo website.
+              This layout is built on Bootstrap v5.2.2 CSS library. You are free
+              to use this template for your commercial website
+            </p>
+            <h6 class="mt-4">Once in Lifetime Experience</h6>
+            <p class="mb-3">
+              You are not allowed to redistribute the template ZIP file on any
+              other website without a permission.
+            </p>
+            <h6 class="mt-4 mb-2">Whole Night Party</h6>
+            <p class="mb-3">
+              Please tell your friends about our website. Thank you.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div
+              class="d-flex justify-content-center align-items-center position-relative"
+            >
+              <picture>
+                <img
+                  class="w-100 rounded-4 img-sec2"
+                  src="./images/pexels-alexander-suhorucov-6457579.jpg"
+                  alt=""
+                />
+              </picture>
+              <div class="img-comment rounded-4 d-flex position-absolute">
+                <div
+                  class="icon me-4 bg-warning d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-regular text-center fa-user fa-2xl"></i>
+                </div>
+                <div class="text-start">
+                  <h2 class="caption">a happy moment</h2>
+                  <p class="mb-0">your amazing festival experience with us</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------- about section end --------------------------------------->
+
+    <!-- artists section -->
+    <section
+      class="artists-section d-flex justify-content-center bg-white section-padding"
+      id="artists"
+    >
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h2 class="mb-5">Meet Artists</h2>
+          </div>
+
+          <!-- first column -->
+          <div class="col-lg-5">
+            <figure class="position-relative overflow-hidden">
+              <img
+                class="img-fluid w-100 rounded-5"
+                src="./images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
+                alt="artist"
+              />
+              <figcaption class="cap-1 first-pic position-absolute rounded-5">
+                <ul>
+                  <li class="">
+                    <span class="text-white">Name:</span> Madonna
+                  </li>
+                  <li>
+                    <span class="text-white margin-settings">Birthday:</span>
+                    August 16, 1990
+                  </li>
+                  <li><span class="text-white"> Music: </span> Pop, R&B</li>
+                  <hr />
+                  <li class="madonna">
+                    <span class="text-white"> Youtube Channel: </span>
+                    <a
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                      class="madonna text-decoration-none"
+                    >
+                      Madonna Official
+                    </a>
+                  </li>
+                </ul>
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- second column -->
+          <div class="col-lg-5">
+            <!-- first artist -->
+            <figure class="position-relative overflow-hidden">
+              <img
+                class="img-fluid w-100 rounded-5"
+                src="./images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
+                alt=""
+              />
+              <figcaption class="cap-1 second-pic position-absolute rounded-5">
+                <ul>
+                  <li><span class="text-white"> Name: </span> Rihana</li>
+                  <li>
+                    <span class="text-white margin-settings"> Birthday: </span>
+                    Feb 20, 1988
+                  </li>
+                  <li><span class="text-white"> Music: </span> Country</li>
+                  <hr />
+                  <li class="madonna">
+                    <span class="text-white margin-settings">
+                      Youtube Channel:
+                    </span>
+                    <a
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                      class="text-decoration-none madonna"
+                    >
+                      Rihana Official
+                    </a>
+                  </li>
+                </ul>
+              </figcaption>
+            </figure>
+
+            <!-- second artist -->
+            <figure class="position-relative overflow-hidden">
+              <img
+                class="img-fluid w-100 rounded-5"
+                src="./images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
+                alt=""
+              />
+              <figcaption class="cap-1 third-pic position-absolute rounded-5">
+                <ul>
+                  <li><span class="text-white"> Name: </span> Bruno Bros</li>
+                  <li>
+                    <span class="text-white margin-settings"> Birthday: </span>
+                    October 8, 1985
+                  </li>
+                  <li><span class="text-white"> Music: </span> Pop</li>
+                  <hr />
+                  <li>
+                    <span class="text-white"> Youtube Channel: </span>
+                    <a
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                      class="text-decoration-none madonna"
+                    >
+                      Bruno Official</a
+                    >
+                  </li>
+                </ul>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- artists section end -->
+
+    <!---------------------------------------- schedule section ----------------------------------->
+    <section class="section-padding" id="schedule-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="text-center mt-4">Event Schedule</h2>
+          </div>
+          <div class="grid-container text-white text-center mb-5">
+            <div class="orange item1">
+              <h5>Day</h5>
+            </div>
+            <div class="orange item2">
+              <h5>Wednesday</h5>
+            </div>
+            <div class="orange item3">
+              <h5>Thursday</h5>
+            </div>
+            <div class="orange item4">
+              <h5>Friday</h5>
+            </div>
+            <div class="same-color item5">
+              <h4>Day 1</h4>
+            </div>
+            <div class="item6 bg-img">
+              <h3 class="">Pop Night</h3>
+              <p>5:00 - 7:00 PM</p>
+              <p>By Madonna</p>
+              <div class="shadow-layer"></div>
+            </div>
+            <div class="item7 same-bg"></div>
+            <div class="item8 bg-img">
+              <h3 class="">Rock & Roll</h3>
+              <p>7:00 - 11:00 PM</p>
+              <p>By Rihana</p>
+              <div class="shadow-layer"></div>
+            </div>
+            <div class="item9 same-color">
+              <h4>Day 2</h4>
+            </div>
+            <div class="item10 same-bg"></div>
+            <div class="item11 same-color">
+              <h3 class="">DJ Night</h3>
+              <p>6:30 - 9:30 PM</p>
+              <p>By Disco Misr</p>
+            </div>
+            <div class="item12 another-bg"></div>
+            <div class="item13 same-color">
+              <h4>Day 3</h4>
+            </div>
+            <div class="item14 bg-img">
+              <h3>Country Music</h3>
+              <p>4:30 - 7:30 PM</p>
+              <p>By Bruno</p>
+              <div class="shadow-layer"></div>
+            </div>
+
+            <div class="item15 another-bg"></div>
+            <div class="item16 same-color">
+              <h3 class="">Free Styles</h3>
+              <p>6:00 - 10:00 PM</p>
+              <p>By Members</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- schedule section end -->
+
+    <!----------------------------- pricing section ------------------------------------>
+    <section
+      class="px-lg-5 section-padding d-flex justify-content-center"
+      id="pricing"
+    >
+      <div class="container">
+        <div class="row d-flex justify-content-around">
+          <div class="col-12">
+            <h2 class="text-center mb-5 pricing-h2">Plans, you'd love</h2>
+          </div>
+
+          <div class="col-lg-6 col-12 pricing-thumb position-relative">
+            <div class="first-card">
+              <h3><small class="me-3">Early Bird</small> $120</h3>
+              <div
+                class="discount text-white position-absolute d-flex flex-column justify-content-center align-items-center"
+              >
+                <p
+                  class="text-white d-flex flex-column justify-content-center align-items-center m-0"
+                >
+                  save up to<span>50%</span>
+                </p>
+              </div>
+              <p class="">Including good things:</p>
+              <ul class="pricing-list">
+                <li>platform for potential customers</li>
+                <li>digital experience</li>
+                <li>high-quality sound</li>
+                <li>standard content</li>
+                <li>Gift shirt</li>
+              </ul>
+              <div class="mt-4 firstCard-btn">
+                <a href="./ticket.html" class="text-warning">Buy Ticket</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12 pricing-thumb">
+            <div class="second-card">
+              <h3><small class="me-3">Standard</small>$240</h3>
+              <p>What makes a premium festava?</p>
+              <ul class="pricing-list">
+                <li>platform for potential customers</li>
+                <li>digital experience</li>
+                <li>high-quality sound</li>
+                <li>premium content</li>
+                <li>live chat support</li>
+              </ul>
+              <div class="mt-4">
+                <a href="./ticket.html" class="text-warning clear"
+                  >Buy Ticket</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing section end -->
+
+    <!------------------------------------- contact section --------------------------------------------------->
+
+    <section id="contact" class="section-padding bg-body">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12-lg text-center d-flex justify-content-center align-items-center flex-column"
+          >
+            <h2 class="text-cap">Interested? Let's talk</h2>
+            <div class="btns d-flex justify-content-center rounded-pill">
+              <button
+                class="contactButton btn fs-lg-3 fs-sm-5 btn-1 me-3 rounded-pill"
+              >
+                Contact Form
+              </button>
+              <button
+                class="googleButton btn fs-lg-3 fs-sm-5 btn-2 rounded-pill"
+              >
+                Google Maps
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="contact-map d-flex justify-content-center align-items-center me-0 ms-0"
+        >
+          <div class="d-inline-block contact bg-white rounded-4 mt-lg-5">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="firstName" class="form-label"></label>
+                <input
+                  type="text "
+                  class="form-control"
+                  placeholder="First Name"
+                  id="firstName"
+                  required
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="lastName" class="form-label"></label>
+                <input
+                  type="text "
+                  class="form-control"
+                  placeholder="Last Name"
+                  id="lastName"
+                  required
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="emailInfo" class="form-label"></label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  id="emailInfo"
+                  required
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="phoneNumber" class="form-label"></label>
+                <input
+                  type="text "
+                  class="form-control"
+                  placeholder="Phone Number"
+                  id="phoneNumber"
+                  required
+                />
+              </div>
+              <div class="col-md-12">
+                <label for="message" class="form-label"></label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="col-lg-4 col-md-10 col-8 mx-auto">
+                <button
+                  type="submit"
+                  class="mt-3 btn submit text-white rounded-5 form-control"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="d-none map bg-white rounded-4">
+            <div class="row g-3">
+              <div class="col-md-12">
+                <iframe
+                  class="w-100 mx-auto"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d66846.52644086584!2d31.06617915856982!3d30.04095654916058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458413f3dedb98f%3A0x5b4219ebdbdb6333!2sCairo%20Jazz%20Club!5e1!3m2!1sen!2smy!4v1703679410450!5m2!1sen!2smy"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section end -->
+
+    <!-- footer section -->
+
+    <footer>
+      <div class="footer-site">
+        <div class="container">
+          <div class="row">
+            <div class="footer-top d-lg-flex align-items-center">
+              <div class="col-lg-6 col-md-12">
+                <h2 class="festava">Festava Live</h2>
+              </div>
+              <div class="col-lg-6">
+                <ul class="list-unstyled">
+                  <div class="icons text-white d-flex justify-content-lg-end">
+                    <li>
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-apple"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-youtube"></i>
+                    </li>
+                    <li>
+                      <i class="fa-brands fa-pinterest"></i>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-head bg-black p-lg-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <h5 class="text-warning links">Links</h5>
+                <ul class="list-unstyled footer-items d-flex mt-3">
+                  <li class="">
+                    <a href="#">Home</a>
+                  </li>
+                  <li class="">
+                    <a href="#about">About</a>
+                  </li>
+                  <li>
+                    <a href="#artists">Artists</a>
+                  </li>
+                  <li>
+                    <a href="#schedule-section">Schedule</a>
+                  </li>
+                  <li>
+                    <a href="#pricing">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 location">
+                <h5 class="text-warning mb-3">Have a question?</h5>
+                <p class="mb-0">
+                  <a href="tel:090-080-0760">090-080-0760 </a>
+                </p>
+                <p>
+                  <a href="mailto:hello@company.com">hello@company.com </a>
+                </p>
+              </div>
+              <div class="col-lg-3 footer-info">
+                <h5 class="text-warning mb-3">Location</h5>
+                <p class="text-white">
+                  Silang Junction South,<br />
+                  Tagaytay, Cavite, Philippines
+                </p>
+                <div class="footer-map">
+                  <a
+                    target="_blank"
+                    href="https://maps.app.goo.gl/khXFnzfKx8z8jNR98"
+                    >Our Map</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="text-secondary mt-5" />
+          <div class="copyRight text-white d-flex mt-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 copyRight">
+                  <p>Copyright © 2024 Festava Live Company</p>
+                </div>
+                <div class="col-sm-12 col-lg-8 terms">
+                  <ul class="list-unstyled d-flex termsList">
+                    <li>
+                      <a href="">Terms & Conditions</a>
+                    </li>
+                    <li>
+                      <a href=""> Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href=""> Your Feedback</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
